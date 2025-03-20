@@ -10,6 +10,11 @@
       "StackName": "amplify-projectawscv-dev-3561b",
       "StackId": "arn:aws:cloudformation:us-east-1:471112893973:stack/amplify-projectawscv-dev-3561b/f02225a0-feff-11ef-b44a-0e3d84fe1b0f",
       "AmplifyAppId": "d39n3zg7rshd"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
     }
   }
 }

@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@lottiefiles/lottie-player": "^2.0.12",
     "@tailwindcss/vite": "^4.0.9",
     "framer-motion": "^12.4.10",
     "lottie-react": "^2.4.1",
+    "lottie-web": "^5.7.6",
     "lucide-react": "^0.479.0",
     "particles.js": "^2.0.0",
     "react": "^19.0.0",

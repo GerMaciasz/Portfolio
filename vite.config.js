@@ -7,5 +7,10 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-  tailwindcss()],
+  tailwindcss()
+],
+  build: {
+    outDir: 'build', // Cambia la carpeta de salida de dist a build
+    assetsDir: 'assets', // Opcional: Mantiene organizados los assets
+  }
 })
