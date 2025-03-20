@@ -1,15 +1,12 @@
 import React from "react"
-import { BrowserRouter } from 'react-router-dom'
-import RoutesIndex from './routes/RoutesIndex.jsx'
+import Home from "./pages/Home.jsx"
 
 
 function App() {
   
   return (
     <>
-      <BrowserRouter>
-        <RoutesIndex />
-      </BrowserRouter>
+      <Home />
     </>
   )
 }
