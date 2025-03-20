@@ -1,5 +1,3 @@
-import github from "../assets/github.png";
-import linkedln from "../assets/linkedn.png";
 import React, { useState } from 'react';
 import { User, Mail, MessageSquare, Send, Loader, CheckCircle } from 'lucide-react';
 
@@ -242,7 +240,8 @@ function Contact() {
                         className="w-12 h-12 flex items-center justify-center bg-gray-800 rounded-full transition-all duration-300 hover:scale-110 hover:bg-purple-600 hover:shadow-lg"
                         aria-label="LinkedIn Profile"
                     >
-                        <img src={linkedln} alt="LinkedIn" className="w-8 h-8" />
+                        <img src="https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/linkedn.png"
+                        alt="LinkedIn" className="w-8 h-8" />
                     </a>
 
                     {/* GitHub Button */}
@@ -253,7 +252,8 @@ function Contact() {
                         className="w-12 h-12 flex items-center justify-center bg-gray-800 rounded-full transition-all duration-300 hover:scale-110 hover:bg-purple-600 hover:shadow-lg"
                         aria-label="GitHub Profile"
                     >
-                        <img src={github} alt="GitHub" className="w-8 h-8" />
+                        <img src="https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/github.png"
+                        alt="GitHub" className="w-8 h-8" />
                     </a>
                 </div>
 

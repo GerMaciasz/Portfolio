@@ -1,5 +1,4 @@
 import React from "react"
-import profileImage from "../assets/profilepic.png"
 
 function Introduction() {
     return (
@@ -24,7 +23,7 @@ function Introduction() {
                             {/* Main image with gradient border */}
                             <div className="relative overflow-hidden rounded-lg p-1 bg-gradient-to-br from-emerald-500 via-blue-500 to-emerald-300">
                                 <img 
-                                    src={profileImage} 
+                                    src="https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Profile-pics/profilepic.png" 
                                     alt="Gerardo Macias Zaragoza" 
                                     className="w-full max-w-sm rounded-lg object-cover"
                                 />
@@ -94,7 +93,7 @@ function Introduction() {
                         {/* Call to action buttons */}
                         <div className="flex gap-4">
                         <a 
-                            href={"https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Copia+de+Curri%CC%81culum+.pdf"} 
+                            href="https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/PDFs/Copia+de+Curri%CC%81culum.pdf" 
                             target="_blank" 
                             rel="noopener noreferrer"
                         >

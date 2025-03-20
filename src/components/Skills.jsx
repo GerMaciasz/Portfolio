@@ -1,25 +1,28 @@
 import React, { useState, useEffect, useRef } from 'react';
-import react from "../assets/react.png";
-import python from "../assets/python.png";
-import javascript from "../assets/javascript.png";
-import git from "../assets/git.png";
-import flask from "../assets/flask.png";
-import docker from "../assets/docker.png";
-import django from "../assets/django.png";
-import css from "../assets/css.png";
-import aws from "../assets/aws.png";
+
+const S3_ASSETS = {
+    javascript: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/javascript.png",
+    react: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/react.png",
+    git: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/git.png",
+    docker: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/docker.png",
+    aws: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/awslogo.png",
+    python: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/python.png",
+    django: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/django.png",
+    flask: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/flask.png",
+    css: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/css.png"
+};
 
 function Skills() {
     const skills = [
-        { name: "JavaScript", image: javascript, id: "js", color: "#F7DF1E" },
-        { name: "ReactJs", image: react, id: "react", color: "#61DAFB" },
-        { name: "GIT", image: git, id: "git", color: "#F05032" },
-        { name: "Docker", image: docker, id: "docker", color: "#2496ED" },
-        { name: "AWS", image: aws, id: "aws", color: "#FF9900" },
-        { name: "Python", image: python, id: "python", color: "#3776AB" },
-        { name: "Django", image: django, id: "django", color: "#50C878" },
-        { name: "Flask", image: flask, id: "flask", color: "#000000" },
-        { name: "CSS", image: css, id: "css", color: "#1572B6" },
+        { name: "JavaScript", image: S3_ASSETS.javascript, id: "js", color: "#F7DF1E" },
+        { name: "ReactJs", image: S3_ASSETS.react, id: "react", color: "#61DAFB" },
+        { name: "GIT", image: S3_ASSETS.git, id: "git", color: "#F05032" },
+        { name: "Docker", image: S3_ASSETS.docker, id: "docker", color: "#2496ED" },
+        { name: "AWS", image: S3_ASSETS.aws, id: "aws", color: "#FF9900" },
+        { name: "Python", image: S3_ASSETS.python, id: "python", color: "#3776AB" },
+        { name: "Django", image: S3_ASSETS.django, id: "django", color: "#50C878" },
+        { name: "Flask", image: S3_ASSETS.flask, id: "flask", color: "#000000" },
+        { name: "CSS", image: S3_ASSETS.css, id: "css", color: "#1572B6" },
     ];
 
     // Animation effect for skill items

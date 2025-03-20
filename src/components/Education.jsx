@@ -1,7 +1,4 @@
 import React from "react"
-import universidad from "../assets/marista.png"
-import aws from "../assets/awslogo.png"
-import devf from "../assets/devf.png"
 
 function Education() {
     const certifications = [
@@ -10,7 +7,7 @@ function Education() {
             title: "Bachelor's Degree in Industrial Engineering",
             issuer: "Universidad Marista de Merida",
             description: "Specialized in process optimization and efficiency improvement, with a strategic focus on problem-solving through critical analysis and analytical thinking. Experienced in data-driven decision-making, driving project management with a continuous improvement approach to maximize operational performance and achieve sustainable results.",
-            img: universidad,
+            img: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/marista.png",
             color: "from-blue-500 to-cyan-400"
         },
         {
@@ -18,7 +15,7 @@ function Education() {
             title: "AWS Certified Cloud Practitioner",
             issuer: "Amazon Web Services",
             description: "Demonstrated foundational knowledge of AWS cloud computing, including cloud architecture, security, billing, pricing models, and best practices. Proficient in AWS services and their applications for scalable, cost-effective cloud solutions.",
-            img: aws,
+            img: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/awslogo.png",
             link: "https://www.credly.com/badges/e223fb3a-c0b0-4090-9836-6d4024a51052/public_url",
             color: "from-emerald-500 to-teal-400"
         },
@@ -28,8 +25,8 @@ function Education() {
             issuer: "Dev.f",
             date: "March 2023",
             description: "Gained expertise in modern web development with proficiency in JavaScript, React, and RESTful API integration. Developed hands-on experience in building scalable applications, front-end frameworks, and efficient API communication.",
-            img: devf,
-            link: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/DEVF_GERARDO_ANDRES+X_PROFESSIONAL_BECAS+(1).pdf",
+            img: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/Logos/devf.png",
+            link: "https://my-portfolio-project-gerardo-macias.s3.us-east-1.amazonaws.com/Assets/PDFs/DEVF_GERARDO_ANDRES+X_PROFESSIONAL_ENGLISH.pdf",
             color: "from-cyan-500 to-blue-400"
         }
     ];
