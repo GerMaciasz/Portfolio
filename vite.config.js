@@ -10,7 +10,7 @@ export default defineConfig({
   tailwindcss()
 ],
   build: {
-    outDir: 'build', // Cambia la carpeta de salida de dist a build
-    assetsDir: 'assets', // Opcional: Mantiene organizados los assets
+    outDir: 'dist', 
+    assetsDir: 'assets', 
   }
 })
