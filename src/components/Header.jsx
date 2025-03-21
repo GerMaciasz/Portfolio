@@ -124,7 +124,7 @@ const Header = () => {
                     transition={{ delay: 0.5, duration: 1 }}
                 >
                     <p className="leading-relaxed">
-                        Combining programming expertise and cloud technologies to drive modern, efficient, and scalable solutions.
+                        Combining programming expertise and cloud technologies to drive modern, efficient and scalable solutions.
                     </p>
                     
                     {/* Animated skills text */}
